@@ -4,6 +4,7 @@
 }
 body {
   background-image: linear-gradient(to bottom, yellow, red);
+  background-size: auto 100%, cover;
 }
 
 header {
@@ -88,8 +89,7 @@ header {
   align-items: center;
   width: 9rem;
   height: 3rem;
-  left: 55rem;
-  top: 10rem;
+ 
   font-family: "Kanit";
   font-style: normal;
   background: #cb1e00;
@@ -111,5 +111,26 @@ footer {
   left: 0px;
   background: #ba0e0e;
   text-align: center;
+  display: flex;
+  position: fixed;
+  bottom: 0px;
 }
 
+@media (max-width:830px) {
+  #principal{
+    display: inline;
+    flex-wrap: wrap;
+     }
+  .imagem{
+    width: 60%;
+  }
+
+body{
+background-image: cover;
+}
+
+#mudar{
+  margin-bottom: 4.5rem;
+  margin-left: 0rem;
+}
+}
