@@ -61,7 +61,7 @@ header {
 #bloco {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.8rem;
   align-items: center;
 }
 .caixa2 {
@@ -111,9 +111,6 @@ footer {
   left: 0px;
   background: #ba0e0e;
   text-align: center;
-  display: flex;
-  position: fixed;
-  bottom: 0px;
 }
 
 @media (max-width:830px) {
@@ -128,9 +125,19 @@ footer {
 body{
 background-image: cover;
 }
+.texto1{
+  font-size: 1.2rem;
+}
+.texto2{
+  font-size: 1.2rem;
+}
 
 #mudar{
   margin-bottom: 4.5rem;
-  margin-left: 0rem;
+}
+footer {
+  display: flex;
+  position: fixed;
+  bottom: 0px;
 }
 }
